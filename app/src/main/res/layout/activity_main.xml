@@ -65,6 +65,7 @@
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="User"
+        android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -83,7 +84,9 @@
         android:layout_marginRight="16dp"
         android:background="@drawable/btn_white_large"
         android:fontFamily="@font/futura_pt_demibold"
+        android:onClick="loginProvider"
         android:text="Service Provider"
+        android:textAllCaps="false"
         android:textColor="#DF4343"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,16 +96,16 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Enter as a guest"
         android:textColor="#505050"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.415" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <TextView
         android:id="@+id/textView"
